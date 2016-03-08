@@ -1,9 +1,14 @@
 var express    = require('express')
 var bodyParser = require('body-parser')
 var Post       = require('./models/post')
+var root_dir = '.';
 
 var app = express()
 app.use(bodyParser.json())
+
+app.get('/', function(req, res) {
+	res.sendFile('layouts/posts.html', { root: root_dir });
+})
 
 app.get('/api/posts', function (req, res, next) {
   Post.find(function (err, posts) {
