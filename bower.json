@@ -1,20 +1,20 @@
 {
-  "name": "nodejs",
-  "description": "MEAN stack",
-  "main": "posts.html",
-  "moduleType": [],
-  "license": "MIT",
-  "homepage": "posts.html",
-  "private": true,
-  "ignore": [
+    "name": "nodejs",
+    "description": "MEAN stack",
+    "main": "posts.html",
+    "moduleType": [],
+    "license": "MIT",
+    "homepage": "posts.html",
+    "private": true,
+    "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
   ],
-  "dependencies": {
-    "bootstrap": "^3.3.6",
-    "angular": "^1.5.0"
-  }
+    "dependencies": {
+        "bootstrap": "^3.3.6",
+        "angular": "^1.5.0"
+    }
 }
