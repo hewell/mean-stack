@@ -14,5 +14,6 @@ var Post = db.model('Post', {
         default: Date.now
     }
 
-})
+});
+
 module.exports = Post;
